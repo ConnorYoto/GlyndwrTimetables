@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_menu_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/main_menu_title"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="438dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/main_menu_image_content_desc"
+        android:padding="0sp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/glyndwrtimetables" />
+
+    <Button
+        android:id="@+id/search_timetable_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu_search"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/saved_timetables_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu_saved"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/help_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu_help"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu_about"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/blank_spacer"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:contentDescription="@string/blank_spacer"
+        app:srcCompat="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/glyndwrbottom_img"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:contentDescription="@string/bottom_bar_content_desc"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/glyndwrbottom" />
+</LinearLayout>

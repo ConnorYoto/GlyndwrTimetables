@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/about_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/about_title"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/App_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/about_app_title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about_content"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:gravity="center"
+        android:padding="25sp"
+        android:text="@string/about_app_info"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Creator_Title"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="@string/about_creator_title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/AboutCreator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="25sp"
+        android:text="@string/about_creator_info"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/about_back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/glyndwrbottom_img"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:contentDescription="@string/bottom_bar_content_desc"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/glyndwrbottom" />
+
+</LinearLayout>

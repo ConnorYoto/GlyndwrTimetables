@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SavedActivity">
+
+    <TextView
+        android:id="@+id/saved_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/saved_title"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/saved_listview"
+        android:layout_width="match_parent"
+        android:layout_height="600dp" />
+
+    <Button
+        android:id="@+id/saved_back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/glyndwrbottom_img"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:contentDescription="@string/bottom_bar_content_desc"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/glyndwrbottom" />
+
+</LinearLayout>

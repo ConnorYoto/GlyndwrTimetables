@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HelpActivity">
+
+    <TextView
+        android:id="@+id/help_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/help_title"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:gravity="center"
+        android:padding="25sp"
+        android:text="@string/help_content_intro"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="25sp"
+        android:text="@string/help_content_search"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Legend_Title"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:text="@string/help_content_legend_title"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/helpextra" />
+
+    <Button
+        android:id="@+id/help_back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/glyndwrbottom_img"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:contentDescription="@string/bottom_bar_content_desc"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/glyndwrbottom" />
+</LinearLayout>

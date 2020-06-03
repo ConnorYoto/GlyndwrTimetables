@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Glyndwr Timetables</string>
+
+    <string name="main_menu_title">Main Menu</string>
+    <string name="logo_content_desc">Glyndwr Timetables welcome screen logo</string>
+    <string name="bottom_bar_content_desc">Glyndwrs bottom house style bar</string>
+    <string name="main_menu_image_content_desc">Glyndwr Timetables welcome screen logo</string>
+    <string name="main_menu_search">Search Timetables</string>
+    <string name="main_menu_saved">Saved Timetables</string>
+    <string name="main_menu_about">About</string>
+    <string name="main_menu_help">Help</string>
+    <string name="blank_spacer" />
+
+    <string name="search_title">Search Timetables</string>
+    <string name="search_search_text">Enter Room/Course/Group you wish to search for</string>
+    <string name="search_button">Search</string>
+
+    <string name="saved_title">Saved Timetables</string>
+    <string name="about_title">About</string>
+    <string name="about_content">Content goes here</string>
+    <string name="about_app_title">Glyndwr Timetabling App</string>
+    <string name="about_app_info">This app was created in order to aid Glyndwr University Students in accessing University timetables. This seems necessary as the mobile site for accessing the timetables is poorly
+    structured and is difficult to view on mobile phones. Also it only downloads the pdf rather than showing the pdf in site</string>
+    <string name="about_creator_title">Connor Laurence</string>
+    <string name="about_creator_info">Currently  undertaking a MSc in Computer Science (PT), Connor has thus far developed skills in networking, python and android development with this App being his latest piece
+    of work so far. If you wish to contact me about potential work or just like to enquire about this app I made please contact me at connorlaurence97@googlemail.com or you can find me on LinkedIn as Connor Laurence.
+    Happy Coding!</string>
+    <string name="help_title">Help</string>
+    <string name="help_content_intro">Hi! Welcome to the Glyndwr Timetabling App Help section. Here you will find helpful hints on how to use the app. Should you come across any issues and would like to inform us
+    then please contact me at: connorlaurence97@googlemail.com.</string>
+    <string name="help_content_legend_title">Timetable Legend</string>
+    <string name="help_content_search">To search, simply type in and click search! From there select an item in the list. This will open a dialog where you can save a record or open to view it. To see your saved
+    records, simply select the saved item in 'saved timetables' and use the open button in the dialog to view the PDF. From here you can also delete the record.</string>
+
+    <string name="back_button">Back</string>
+
+    <string name="saveDialogTitle">Example Title</string>
+    <string name="saveDialogInfo">Example Info</string>
+    <string name="saveDialogButton_Delete">DELETE</string>
+    <string name="saveDialogButton_Open">OPEN</string>
+    <string name="saveDialogButton_Close">CLOSE</string>
+
+    <string name="searchDialogTitle">Example Info</string>
+    <string name="searchDialogInfo">Example Title</string>
+    <string name="searchDialogButton_Save">SAVE</string>
+    <string name="searchDialogButton_Open">OPEN</string>
+    <string name="searchDialogButton_Close">CLOSE</string>
+
+    <string name="pdf_title">Timetable PDF</string>
+    <string name="pdf_timetable">PDF Timetable</string>
+    <string name="pdf_next">Next Page</string>
+    <string name="pdf_prev">Previous Page</string>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/searchDialogButton_Open"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/searchDialogButton_Save"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_toStartOf="@id/searchDialogButton_Close"
+        android:layout_toLeftOf="@id/searchDialogButton_Close"
+        android:text="@string/searchDialogButton_Open" />
+
+    <TextView
+        android:id="@+id/searchDialogTitle"
+        android:layout_width="265dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:text="@string/searchDialogTitle" />
+
+
+    <Button
+        android:id="@+id/searchDialogButton_Save"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchDialog"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/searchDialogButton_Save"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/searchDialogButton_Close"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="-1dp"
+        android:text="@string/searchDialogButton_Close" />
+
+    <TextView
+        android:id="@+id/searchDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/searchDialogInfo"
+        android:layout_width="273dp"
+        android:layout_height="69dp"
+        android:layout_below="@id/searchDialog"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="28dp"
+        android:padding="5dp"
+        android:text="@string/searchDialogInfo" />
+
+</RelativeLayout>

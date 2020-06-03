@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/saveDialogButton_Open"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/saveDialogButton_Delete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_toStartOf="@id/saveDialogButton_Close"
+        android:layout_toLeftOf="@id/saveDialogButton_Close"
+        android:text="@string/saveDialogButton_Open" />
+
+    <TextView
+        android:id="@+id/saveDialogTitle"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:text="@string/saveDialogTitle" />
+
+
+    <Button
+        android:id="@+id/saveDialogButton_Delete"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/saveDialog"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:text="@string/saveDialogButton_Delete" />
+
+    <Button
+        android:id="@+id/saveDialogButton_Close"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/saveDialogButton_Close" />
+
+    <TextView
+        android:id="@+id/saveDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/saveDialogInfo"
+        android:layout_width="326dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/saveDialog"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="@string/saveDialogInfo" />
+
+</RelativeLayout>
